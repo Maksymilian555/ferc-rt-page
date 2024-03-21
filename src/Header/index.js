@@ -21,6 +21,6 @@ const Header = (props) => (
             </ul>
         </nav>
     </div> 
-)
+);
 
 export default Header;
