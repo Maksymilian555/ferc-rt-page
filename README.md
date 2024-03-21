@@ -26,5 +26,9 @@ We will show you all our news, images and info. It will all be about rocket, par
 
 React, Java script, CSS, HTML, and other
 
+### Want to test page? 
+
+Use this link to github pages:  https://maksymilian555.github.io/ferc-rt-page/
+
 #### More info later
 
