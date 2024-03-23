@@ -6,35 +6,49 @@ const firstSec = {
     backgroundImage: `url(${Img1})`,
 };
 
-const Wrapper = (props) => (
+const Wrapper = () => (
 
     <div className="wrapper">
-        <section className="wrapper_sec" style={firstSec}>
+        <section id="about" className="wrapper_sec wrapper_sec--imageS" style={firstSec}>
             <div className="wrapper_flexMrg">
                 <div className="wrapper_secFlex">
                     <div className="wrapper_secText">
-                        <h1>Jak to się zaczęło</h1>
+                        <h1>Nagłówek</h1>
                         <p>
-                            Nasza firma powstała dość dawno jak na wiek twórców...
+                            Jakiś tam mały text
                         </p>
                     </div>
                     <div className="wrapper_gap"></div>
                 </div>
             </div>  
         </section>
-        <section className="wrapper_sec" style={firstSec}>
+        <section id="galery" className="wrapper_sec" style={firstSec}>
             <div className="wrapper_flexMrg">
                 <div className="wrapper_secFlex">
                     <div className="wrapper_secText">
-                        <h1>było to dawno</h1>
+                        <h1>Piękna sekcja z obrazem</h1>
                         <p>
-                            Nasza firma powstała dość dawno jak na wiek twórców...
-                            Lorem
+                            Nieco więcej textu i oczywiście buttony 
                         </p>
                     </div>
                     <div className="wrapper_gap"></div>
                 </div>
             </div>  
+        </section>
+        <section className="wrapper_sec wrapper_sec--justCent">
+            <div className="wrapper_secMargin">
+                <div className="wrapper_secHead">
+                    <h2>Fajny tytulik</h2>
+                </div>
+                <div className="wrapper_secContent">
+                    <div className="wrapper_secGraphs">
+                        Jakieś duże rzeczy z obrazkami
+                    </div>
+                    <div className="wrapper_secFooter">
+                        Małe rzeczy z małymi obrazkami albo bez
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 );
