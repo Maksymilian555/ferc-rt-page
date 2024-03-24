@@ -1,8 +1,25 @@
 .footer {
-    margin: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    color: aliceblue;
 }
 
 .footer_main {
-    border-bottom: 1px;
-    border-color: rgb(190, 189, 189);
+    padding-top: 10%;
+    display: flex;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-color: rgb(192, 192, 192);
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.footer_info {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    padding-bottom:10%;
+    color: rgb(184, 184, 184);
 }
