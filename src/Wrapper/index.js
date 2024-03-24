@@ -6,7 +6,7 @@ const firstSec = {
     backgroundImage: `url(${Img1})`,
 };
 
-const Wrapper = () => (
+const Wrapper = ({ footer }) => (
 
     <div className="wrapper">
         <section id="about" className="wrapper_sec wrapper_sec--imageS" style={firstSec}>
@@ -50,6 +50,9 @@ const Wrapper = () => (
                 </div>
             </div>
         </section>
+        <>
+        {footer}
+        </>
     </div>
 );
 
