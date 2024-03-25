@@ -1,19 +1,19 @@
 import "./style.css";
 
 const Footer = () => (
-    <section className="footer">
+    <section id="contact" className="footer">
         <div className="footer_main">
-            <p>
+            <div>
                 <h4>Krótko o nas</h4>
                 <p>bla bla</p>
-            </p>
-            <p>
+            </div>
+            <div>
                 (Mapa strony)
-            </p>
-            <p>
+            </div>
+            <div>
                 <h4>Kontakt</h4>
                 <p>DC: BLA BLA  </p>
-            </p>   
+            </div>   
         </div>
         <div className="footer_info">
             <p>

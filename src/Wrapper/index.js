@@ -35,7 +35,7 @@ const Wrapper = ({ footer }) => (
                 </div>
             </div>  
         </section>
-        <section className="wrapper_sec wrapper_sec--justCent">
+        <section id="projects" className="wrapper_sec wrapper_sec--justCent">
             <div className="wrapper_secMargin">
                 <div className="wrapper_secHead">
                     <h2>Fajny tytulik</h2>
