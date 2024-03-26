@@ -1,0 +1,43 @@
+.headSec {
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    margin: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.headSec_flexMrg {
+    margin-top: 5%;
+    margin-bottom: 7%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.headSec_secText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: large ;
+    color: aliceblue;
+    margin-top: 5%;
+}
+
+.headSec_secFlex {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 2fr;
+    margin: 3%;
+    padding-top: 10%;
+}
+
+.headSec_gap {
+    width: 50%;
+    flex: 0 1 auto;
+}

@@ -21,6 +21,7 @@
     background-size: cover;
     align-items: center;
     font-family: "Roboto", sans-serif;
+
 }
 
 .wrapper_secText {
@@ -53,8 +54,8 @@
 
 .wrapper_sec--imageS {
     height: 400px;
-    margin-bottom: 150px;
-    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .wrapper_secMargin {

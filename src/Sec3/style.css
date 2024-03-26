@@ -1,0 +1,45 @@
+.infoSec_sec {
+    max-width: 100%;
+    height: 900px;
+    overflow: hidden;
+    display: flex;
+    margin: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+.infoSec_secMargin {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.infoSec_secHead {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    font-size: 35px;
+}
+
+.infoSec_secContent {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+.infoSec_secGraphs {
+    font-size: 25px;
+    display: flex;
+}
+
+.infoSec_secFooter {
+    font-size: 20px;
+    display: flex;
+}
+
+.infoSec_sec--justCent {
+    justify-content: center;
+}

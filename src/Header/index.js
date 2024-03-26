@@ -1,6 +1,6 @@
 import "./style.css";
 import logo from "../Images/icon.png"
- 
+
 const scrollProj = () => {
     const proj = document.getElementById("projects")
 
@@ -30,40 +30,42 @@ const scrollConc = () => {
     }
 }
 
+
+
 const Header = (props) => (
-    <div className = "header">
-        <img src={logo} alt="logo" className = "nav_logo"></img>
-        <nav className = "header_nav">
-            <ul className = "nav_list">
-                <li className = "nav_case">
-                    <button 
-                    className="nav_button"
-                    onClick={ scrollGal }
-                    >Galeria</button>                   
+    <div className="header">
+        <img src={logo} alt="logo" className="nav_logo"></img>
+        <nav className="header_nav">
+            <ul className="nav_list">
+                <li className="nav_case">
+                    <button
+                        className="nav_button"
+                        onClick={scrollGal}
+                    >Galeria</button>
                 </li>
-                <li className = "nav_case">
-                    <button 
-                    className="nav_button"
-                    onClick={ scrollConc }
+                <li className="nav_case">
+                    <button
+                        className="nav_button"
+                        onClick={scrollConc}
                     >Kontakt</button>
                 </li>
-                <li className = "nav_case">
-                    <button 
-                    className="nav_button"
-                    onClick={ scrollAbo }
+                <li className="nav_case">
+                    <button
+                        className="nav_button"
+                        onClick={scrollAbo}
                     >O nas</button>
                 </li>
-                <li className = "nav_case">
+                <li className="nav_case">
                     <button
-                     className="nav_button"
-                     onClick={ scrollProj }
+                        className="nav_button"
+                        onClick={scrollProj}
                     >
                         Projekty
                     </button>
                 </li>
             </ul>
         </nav>
-    </div> 
+    </div>
 );
 
 export default Header;
