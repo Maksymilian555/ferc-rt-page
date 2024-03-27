@@ -43,3 +43,25 @@
 .infoSec_sec--justCent {
     justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+    .infoSec_sec {
+        height: 500px;
+    }
+    .infoSec_secMargin {
+        margin-left: 50px;
+        margin-left: 50px;
+    }
+    .infoSec_secHead {
+        font-size: 15px;
+        height: 75px;
+        word-wrap: break-word;
+        margin-bottom: 10%;
+    }
+    .infoSec_secGraphs {
+        font-size: 12px;
+    }
+    .infoSec_secFooter {
+        font-size: 9px;
+    }
+}
