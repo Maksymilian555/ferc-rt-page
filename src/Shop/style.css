@@ -1,0 +1,128 @@
+.shop_sec {
+    max-width: 100%;
+    height: 900px;
+    overflow: hidden;
+    display: flex;
+    margin: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+.shop_secMargin {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.shop_secHead {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    font-size: 35px;
+    margin-top: 5%;
+}
+
+.shop_secContent {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+
+.shop_secGraphs {
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.shop_secFooter {
+    font-size: 20px;
+    display: flex;
+}
+
+.shop_sec--justCent {
+    justify-content: center;
+}
+
+.shop_product {
+    width: 150px;
+    height: 100px;
+    padding: 1px;
+    background-color: black;
+}
+
+.shop_product--big {
+    width: 600px;
+    height: 400px;
+}
+
+.shop_product--medium {
+    height: 400px;
+    width: 250px;
+}
+
+.shop_nxtButton, .shop_preButton{
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+    opacity: 0.2;
+}
+
+.shop_preButton{
+    left: 0;
+}
+
+.shop_nxtButton{
+    right: 0;
+}
+
+.pre-btn:hover, .nxt-btn:hover{
+    opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .shop_sec {
+        height: 500px;
+    }
+    .shop_secMargin {
+        margin-left: 50px;
+        margin-left: 50px;
+    }
+    .shop_secHead {
+        font-size: 15px;
+        height: 75px;
+        word-wrap: break-word;
+        margin-bottom: 10%;
+    }
+    .shop_secGraphs {
+        font-size: 12px;
+    }
+    .shop_secFooter {
+        font-size: 9px;
+    }
+}
+
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+  
+.each-slide-effect span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }

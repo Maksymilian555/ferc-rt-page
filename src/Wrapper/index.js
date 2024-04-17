@@ -1,11 +1,11 @@
 import "./style.css";
 
-const Wrapper = ({ footer, sec1, sec2, sec3}) => (
+const Wrapper = ({ footer, sec1, sec2, shop}) => (
 
     <div className="wrapper">
-        {sec1}
         {sec2}
-        {sec3}
+        {shop}
+        {sec1}
         {footer}
     </div>
 );
