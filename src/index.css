@@ -11,4 +11,5 @@
   background-color: #eee;
   font-family: 'Roboto', sans-serif;
   margin-top: 0;
+  overflow: hidden;
 }

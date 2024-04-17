@@ -3,17 +3,19 @@
     padding-right: 10%;
     font-family: "Roboto", sans-serif;
     background-color: black;
-    color: aliceblue;
+    color: rgb(255, 245, 245);
 }
 
 .footer_main {
     padding-top: 10%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
     border-bottom-width: 2px;
     border-bottom-style: solid;
-    border-color: rgb(192, 192, 192);
+    border-color: rgb(136, 136, 136);
     justify-content: space-between;
     font-size: 20px;
+    padding-bottom: 3%;
 }
 
 .footer_info {
@@ -21,7 +23,12 @@
     justify-content: center;
     font-size: large;
     padding-bottom:10%;
-    color: rgb(184, 184, 184);
+    color: rgb(136, 136, 136);
+}
+
+.footer_littleText {
+    font-size: medium;
+    color: rgb(194, 194, 194);
 }
 
 @media screen and (max-width: 600px) {
@@ -32,4 +39,24 @@
     .footer_main {
         font-size: 10px;
     }
+}
+
+.footer_mediaButton {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.footer_mapButton {
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    color: aliceblue;
+    font-size: large;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+}
+
+.footer_pageMap {
+    list-style: none;
 }
