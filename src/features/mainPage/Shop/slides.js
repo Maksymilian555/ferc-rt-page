@@ -12,11 +12,11 @@ const Slider = () => {
       let containerWidth = containerDimensions.width;
   
       nxtBtn[i].addEventListener('click', () => {
-          item.scrollLeft += (containerWidth / 2);
+          item.scrollLeft += containerWidth;
       })
   
       preBtn[i].addEventListener('click', () => {
-          item.scrollLeft -= (containerWidth / 2);
+          item.scrollLeft -= containerWidth;
       })
   })
     return (

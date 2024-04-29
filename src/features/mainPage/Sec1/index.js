@@ -1,5 +1,5 @@
 import "./style.css";
-import Img1 from "../Images/Img1.1.png"
+import Img1 from "../../../common/Images/Img1.1.png"
 
 const firstSec = {
     backgroundImage: `url(${Img1})`,

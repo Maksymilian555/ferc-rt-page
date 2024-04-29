@@ -1,19 +1,27 @@
-import { useRef, useEffect, useState } from "react"
-import Header from "./Header"
-import Wrapper from "./Wrapper"
-import Footer from "./Footer"
-import Sec1 from "./Sec1"
-import Sec2 from "./Sec2"
-import Sec3 from "./Shop"
-
+import MainPage from "./features/mainPage/Main";
+import {HashRouter, Switch, Route, Redirect} from "react-router-dom";
+import Header from "./common/Header"
+import ErrorPage from "./features/ErrorPage";
 
 
 function App() {
   return (
-    <main>
-      <Header />
-      <Wrapper sec1 = {<Sec1 />} sec2 = {<Sec2 />} shop={<Sec3 />} footer={<Footer />} />
-    </main>
+    <HashRouter>
+    <nav>
+      <Header/>
+      <Switch>
+        <Route exact path="/">
+          <Redirect to="/StronaGłówna" />
+        </Route>
+        <Route path="/StronaGłówna">
+          <MainPage/>
+        </Route>
+        <Route path="/">
+          <ErrorPage/>
+        </Route>
+      </Switch>
+    </nav>
+    </HashRouter>
   );
 }
 

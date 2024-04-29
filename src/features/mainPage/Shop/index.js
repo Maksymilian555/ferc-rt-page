@@ -1,9 +1,12 @@
 import "./style.css";
 import Slider from "./slides.js"
+import { useRef } from "react";
+
 
 const Sec3 = () => {
+    const shopRef = useRef(null);
     return (
-    <section id="projects" className="shop_sec shop_sec--justCent">
+    <section ref={shopRef} id="projects" className="shop_sec shop_sec--justCent">
     <div className="shop_secMargin">
         <div className="shop_secHead">
             <h2>Nasze produkty</h2>

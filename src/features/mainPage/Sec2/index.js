@@ -1,8 +1,8 @@
 import "./style.css";
-import Img1 from "../Images/Earth.jpeg"
+import Earth from "../../../common/Images/Earth.jpeg"
 
 const firstSec = {
-    backgroundImage: `url(${Img1})`,
+    backgroundImage: `url(${Earth})`,
 };
 
 const Sec2 = () => (

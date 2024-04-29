@@ -21,8 +21,8 @@
 .footer_info {
     display: flex;
     justify-content: center;
+    padding-bottom: 5%;
     font-size: large;
-    padding-bottom:10%;
     color: rgb(136, 136, 136);
 }
 

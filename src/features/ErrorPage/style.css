@@ -1,0 +1,54 @@
+.errorSec {
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    margin: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.errorSec_flexMrg {
+    margin-top: 5%;
+    margin-bottom: 7%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.errorSec_secText {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: large ;
+    color: rgb(26, 26, 26);
+    margin-top: 5%;
+}
+
+.errorSec_secFlex {
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 2fr;
+    margin: 3%;
+    padding-top: 10%;
+}
+
+.errorSec_gap {
+    width: 50%;
+    flex: 0 1 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .errorSec {
+        height: 300px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .errorSec_secText {
+        font-size: small;
+    }
+}
