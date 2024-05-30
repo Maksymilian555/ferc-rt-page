@@ -1,7 +1,6 @@
 .wrapper {
     scroll-behavior: smooth;
     display: grid;
-    z-index: -1;
     position: fixed;
     grid-template-rows: auto;
     max-width: 100%;

@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import mainReducer from "./features/mainPage/mainSlice";
+import productsReducer from "./features/ShopPage/productsSlice"
 
 export default configureStore({
     reducer: {
-        refs: mainReducer,
+        products: productsReducer,
     },
 });

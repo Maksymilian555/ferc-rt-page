@@ -10,6 +10,7 @@ const Sec1 = () => (
             <div className="headSec_flexMrg">
                 <div className="headSec_secFlex">
                     <div className="headSec_secText">
+                        <p></p>
                         <h1>Nagłówek</h1>
                         <p>
                             Jakiś tam mały text

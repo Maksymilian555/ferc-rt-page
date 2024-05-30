@@ -1,0 +1,21 @@
+.slider{
+    height: 650px;
+}
+
+.slider_card {
+    display: inline-block;
+    background-color: aqua;
+    height: 400px;
+    width: 250px;
+    margin-right: 100px;
+}
+
+.slider_body {
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute;
+    padding: 50px;
+    list-style: none;
+    left: -30%;
+
+}

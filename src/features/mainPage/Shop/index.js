@@ -1,6 +1,7 @@
 import "./style.css";
-import Slider from "./slides.js"
 import { useRef } from "react";
+import { NavLink } from "react-router-dom";
+import MultiCardCarousel from "./index2.js";
 
 
 const Sec3 = () => {
@@ -9,10 +10,14 @@ const Sec3 = () => {
     <section ref={shopRef} id="projects" className="shop_sec shop_sec--justCent">
     <div className="shop_secMargin">
         <div className="shop_secHead">
-            <h2>Nasze produkty</h2>
+                    <NavLink
+                        to="/Sklep"
+                        activeClassName="active"
+                        className="shop_shopLink"
+                    ><h2>Nasze produkty</h2></NavLink>
         </div>
         <div className="shop_secContent">
-            <Slider/>
+            <MultiCardCarousel/>
         </div>
     </div>
     </section>

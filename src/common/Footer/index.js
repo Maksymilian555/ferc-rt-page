@@ -64,7 +64,7 @@ const Footer = () => (
         </div>
         <div className="footer_info">
             <p>
-                Copyright Maksymilian Gozdek©
+                Copyright © Flat Earth Rocket Corporation 2024
             </p>
         </div>
     </section>
