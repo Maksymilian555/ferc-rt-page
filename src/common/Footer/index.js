@@ -13,7 +13,7 @@ const scrollProj = () => {
     }
 }
 const scrollGal = () => {
-    const proj = document.getElementById("galery")
+    const proj = document.getElementById("shop")
 
     if (proj) {
         proj.scrollIntoView();
@@ -45,7 +45,7 @@ const Footer = () => (
                 <ul className="footer_pageMap">
                     <li>
                         <button className="footer_mapButton" onClick={scrollAbo}>O nas</button>
-                        <button className="footer_mapButton" onClick={scrollGal}>Galeria</button>
+                        <button className="footer_mapButton" onClick={scrollGal}>Sklep</button>
                         <button className="footer_mapButton" onClick={scrollProj}>Projekty</button>
                         <button className="footer_mapButton" onClick={scrollConc}>Kontakt</button>
                     </li>

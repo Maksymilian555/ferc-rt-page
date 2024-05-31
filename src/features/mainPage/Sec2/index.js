@@ -6,7 +6,7 @@ const firstSec = {
 };
 
 const Sec2 = () => (
-<section id="galery" className="imgSec_sec" style={firstSec}>
+<section id="about" className="imgSec_sec" style={firstSec}>
             <div className="imgSec_flexMrg">
                 <div className="imgSec_secFlex">
                     <div className="imgSec_secText">

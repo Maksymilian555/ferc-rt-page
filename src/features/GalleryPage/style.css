@@ -66,9 +66,13 @@
 }
 
 .gallery_photo {
-    width: 445px;
+    width: 345px;
     height: 300px;
     
+}
+
+.gallery_photo--big {
+    width: 545px;
 }
 
 

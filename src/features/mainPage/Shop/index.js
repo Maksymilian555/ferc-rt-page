@@ -7,7 +7,7 @@ import MultiCardCarousel from "./index2.js";
 const Sec3 = () => {
     const shopRef = useRef(null);
     return (
-    <section ref={shopRef} id="projects" className="shop_sec shop_sec--justCent">
+    <section ref={shopRef} id="shop" className="shop_sec shop_sec--justCent">
     <div className="shop_secMargin">
         <div className="shop_secHead">
                     <NavLink

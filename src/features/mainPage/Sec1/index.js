@@ -6,7 +6,7 @@ const firstSec = {
 };
 
 const Sec1 = () => (
-    <section id="about" className="headSec" style={firstSec}>
+    <section id="projects" className="headSec" style={firstSec}>
             <div className="headSec_flexMrg">
                 <div className="headSec_secFlex">
                     <div className="headSec_secText">

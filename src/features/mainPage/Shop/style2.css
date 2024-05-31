@@ -22,6 +22,7 @@
     border-radius: 5%;
     border: 1px solid rgb(245, 245, 245);
     box-shadow: 2px 5px 2px rgb(221, 221, 221);
+    margin-left: 30px;
 }
 
 .carousel_title {
