@@ -1,17 +1,29 @@
 {
   "files": {
-    "main.css": "/ferc-rt-page/static/css/main.f19f82f4.css",
-    "main.js": "/ferc-rt-page/static/js/main.c36bf648.js",
+    "main.css": "/ferc-rt-page/static/css/main.1eb46bb0.css",
+    "main.js": "/ferc-rt-page/static/js/main.b2b8be98.js",
+    "static/js/36.d675ff7b.chunk.js": "/ferc-rt-page/static/js/36.d675ff7b.chunk.js",
+    "static/js/107.75e7d804.chunk.js": "/ferc-rt-page/static/js/107.75e7d804.chunk.js",
+    "static/js/138.41846c38.chunk.js": "/ferc-rt-page/static/js/138.41846c38.chunk.js",
     "static/js/453.155e50b8.chunk.js": "/ferc-rt-page/static/js/453.155e50b8.chunk.js",
+    "static/media/Img1.png": "/ferc-rt-page/static/media/Img1.5fc176aa60ee5dbe286f.png",
     "static/media/Img1.1.png": "/ferc-rt-page/static/media/Img1.1.3e2c0d7d3b8f8b31b467.png",
-    "static/media/icon.png": "/ferc-rt-page/static/media/icon.05388ff42b6b56e0f690.png",
+    "static/media/Earth.jpeg": "/ferc-rt-page/static/media/Earth.2e85bd0553c37bc73235.jpeg",
+    "static/media/2-a.jpg": "/ferc-rt-page/static/media/2-a.884c3b666a264b524b21.jpg",
+    "static/media/Twitter.png": "/ferc-rt-page/static/media/Twitter.ccf92d9f7676459604f5.png",
+    "static/media/Instagram.png": "/ferc-rt-page/static/media/Instagram.96afb941403cba6c3fbd.png",
+    "static/media/3-a.jpg": "/ferc-rt-page/static/media/3-a.0073f778c2ceae958558.jpg",
+    "static/media/logov2.png": "/ferc-rt-page/static/media/logov2.0d01683c1fccf921303d.png",
+    "static/media/1-a.jpg": "/ferc-rt-page/static/media/1-a.dec35af005ee38c527b8.jpg",
+    "static/media/Discord.png": "/ferc-rt-page/static/media/Discord.1bd44eb799491111dd66.png",
+    "static/media/Facebook.png": "/ferc-rt-page/static/media/Facebook.6783ed2bd5cadf29f821.png",
     "index.html": "/ferc-rt-page/index.html",
-    "main.f19f82f4.css.map": "/ferc-rt-page/static/css/main.f19f82f4.css.map",
-    "main.c36bf648.js.map": "/ferc-rt-page/static/js/main.c36bf648.js.map",
+    "main.1eb46bb0.css.map": "/ferc-rt-page/static/css/main.1eb46bb0.css.map",
+    "main.b2b8be98.js.map": "/ferc-rt-page/static/js/main.b2b8be98.js.map",
     "453.155e50b8.chunk.js.map": "/ferc-rt-page/static/js/453.155e50b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f19f82f4.css",
-    "static/js/main.c36bf648.js"
+    "static/css/main.1eb46bb0.css",
+    "static/js/main.b2b8be98.js"
   ]
 }
