@@ -17,18 +17,20 @@
 }
 
 .shopSec_card {
+    position: relative;
     display: grid;
     height: 500px;
     width: 300px;
     grid-template-rows: 10fr 1fr 1fr;
     margin-left: 5px;
     margin-right: 5px;
-    text-decoration: none;
+    text-decoration: underline white;
 }
 
-.shopSec_card:hover {
+.shopSec_card:hover  {
     border: solid rgb(255, 255, 255) 1px;
     box-shadow: 0px 0px 2px 2px rgb(216, 237, 245) ;
+    text-decoration: underline white;
 }
 
 .shopSec_paragraph {
@@ -88,6 +90,22 @@
 
 .shopSec_cardImg {
     width: 300px;
+}
+
+.shopSec_cardImg--under {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 300px;
+}
+
+.shopSec_card:hover .shopSec_cardImg--under {
+    opacity: 1;
+}
+
+.shopSec_card:hover .shopSec_cardImg {
+    opacity: 0;
 }
 
 .shopSec_category {

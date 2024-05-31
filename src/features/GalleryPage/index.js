@@ -17,21 +17,21 @@ function GalleryPage() {
             <div className="gallerySec_gallery">
                 <div className="gallery_row">
                     <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo gallery_photo--big" src={foto} alt="Zdjęcie rakiety"/>
                     <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo gallery_photo--big" src={foto} alt="Zdjęcie rakiety"/>
+                </div>
+                <div className="gallery_row">
+                    <img className="gallery_photo gallery_photo--big" src={foto} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo " src={foto} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo gallery_photo--big" src={foto} alt="Zdjęcie rakiety"/>
                     <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
                 </div>
                 <div className="gallery_row">
                     <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo gallery_photo--big" src={foto} alt="Zdjęcie rakiety"/>
                     <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
-                </div>
-                <div className="gallery_row">
-                    <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>   
+                    <img className="gallery_photo gallery_photo--big" src={foto} alt="Zdjęcie rakiety"/>   
                 </div>
             </div>
         </section>

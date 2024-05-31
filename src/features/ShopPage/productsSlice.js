@@ -9,7 +9,7 @@ const productsSlice = createSlice({
                 name: "Rakieta na gumkę",
                 avability: true,
                 price: 100.50,
-                online: true,
+                online: false,
                 description: "Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet Lorem Ipsum dolor sit amet ",
                 category: 1,
             },
@@ -59,7 +59,7 @@ export const getProductsById = (state, productId) =>
 export const selectProductsByQuery = (state, query) => {
     const products = selectProducts(state)
     if (!query || query.trim() === "") {
-        return products;
+        return null;
     }
 
     return products.filter(({name}) => name.includes(query.trim()));

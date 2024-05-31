@@ -7,6 +7,7 @@ import { toProduct } from "../../routes";
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import sm from "/FERC/ferc-rt-page/src/features/ShopPage/ProductsImages/1-a.jpg"
 
 function ShopPage() {
     const location = useLocation();
@@ -17,10 +18,12 @@ function ShopPage() {
     let productsByCategory = useSelector(state => getProductsByCategory(state, Category))
     let productsByQuery = useSelector(state => selectProductsByQuery(state, query))
     let productsSearched =
+        productsByQuery &&
         productsByQuery.map(product => (
         <NavLink to={toProduct({id: product.id})} >
         <li key={product.id} className="shopSec_card">
-            <img  className="shopSec_cardImg" src="https://static.vecteezy.com/system/resources/thumbnails/022/996/345/small/3d-space-rocket-render-with-transparent-background-free-png.png"alt="productImage"></img>
+            <img  className="shopSec_cardImg" src="./ProductsImages/1-a.jpg"alt="productImage"></img>
+            <img  className="shopSec_cardImg--under" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Red_Color.jpg/1536px-Red_Color.jpg"alt="productImage"></img>
             <h2 className="shopSec_cardName">{product.name}</h2>
             <h3 className="shopSec_cardPrice">{product.price}</h3>
         </li>
@@ -31,7 +34,8 @@ function ShopPage() {
             productsByCategory.map(product => (
             <NavLink to={toProduct({id: product.id})} >
             <li key={product.id} className="shopSec_card">
-                <img  className="shopSec_cardImg" src="https://static.vecteezy.com/system/resources/thumbnails/022/996/345/small/3d-space-rocket-render-with-transparent-background-free-png.png"alt="productImage"></img>
+                <img  className="shopSec_cardImg" src="./ProductsImages/1-a.jpg"alt="productImage"></img>
+                <img  className="shopSec_cardImg--under" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Red_Color.jpg/1536px-Red_Color.jpg"alt="productImage"></img>
                 <h2 className="shopSec_cardName">{product.name}</h2>
                 <h3 className="shopSec_cardPrice">{product.price}</h3>
             </li>
@@ -48,6 +52,10 @@ function ShopPage() {
         }
 
         history.push(`${location.pathname}?${searchParams.toString()}`);
+    };
+    const ImportImg = (id) => {
+        const img = import (`../ShopPage/ProductsImages/${id}-a.jpg`)
+        return img
     };
     return (
         <>
@@ -75,7 +83,8 @@ function ShopPage() {
                     productsSearched || productsList || products.map(product => (
                         <NavLink to={toProduct({id: product.id})} >
                         <li key={product.id} className="shopSec_card">
-                            <img  className="shopSec_cardImg" src="https://static.vecteezy.com/system/resources/thumbnails/022/996/345/small/3d-space-rocket-render-with-transparent-background-free-png.png"alt="productImage"></img>
+                            <img  className="shopSec_cardImg" src={"ImportImg(product.id)"}alt="productImage"></img>
+                            <img  className="shopSec_cardImg--under" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Red_Color.jpg/1536px-Red_Color.jpg"alt="productImage"></img>
                             <h2 className="shopSec_cardName">{product.name}</h2>
                             <h3 className="shopSec_cardPrice">{product.price}</h3>
                         </li>

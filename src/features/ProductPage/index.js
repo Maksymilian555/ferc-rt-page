@@ -25,7 +25,7 @@ function ProductPage() {
                 <h3 className="productSec_avability">{`Dostępny: ${(product.avability && "tak") || "nie"}`}</h3>
                 <p className="productSec_description">{product.description}</p>
                 <div className="productSec_buttons">
-                    <button className="productSec_button productSec_button--online">Kup w sklepie online</button>
+                    <button className={`productSec_button productSec_button--online ${product.online || "productSec_button--inactive"}`} onClick={product.online ? (() => window.open("https://www.olx.pl/oferty/")) : (console.log())}>Kup w sklepie online</button>
                     <button className="productSec_button productSec_button--stationary" onClick={scrollInfo}>Kup w sklepie stacjonarnym</button>
                 </div>
                 <p id="ProductInfo" className="productSec_moreInfo">Znajdziesz na stoisku stacjonarnym o adresie ... dnia 01.01.2024 w godzinach 12:00-16:00.</p>

@@ -61,6 +61,7 @@
     height: 45px;
     margin-top: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .productSec_buttons {
@@ -80,4 +81,9 @@
 
 .productSec_button--stationary {
     background-color: rgb(255, 105, 205);
+}
+
+.productSec_button--inactive {
+    background-color: rgb(182, 182, 182);
+    cursor: default;
 }
