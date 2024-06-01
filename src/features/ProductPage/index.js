@@ -15,10 +15,11 @@ const scrollInfo = () => {
 function ProductPage() {
     const {id} = useParams()
     const product = useSelector(state => getProductsById(state, id))
+    console.log(product)
     return (
         <>
         <section id="product" className="productSec">
-           <img src={productFoto} className="productSec_image"></img>
+           <img src={require(`../ShopPage/ProductsImages/${product.id}-a.jpg`)} className="productSec_image"></img>
            <div className="productSec_info">
                 <h1 className="productSec_name">{product.name}</h1>
                 <h3 className="productSec_price">{`${product.price} złotych`}</h3>
