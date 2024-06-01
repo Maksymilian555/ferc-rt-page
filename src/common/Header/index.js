@@ -8,7 +8,11 @@ const Header = () => {
         <div className="header"> 
             <ul className="nav_list">
                 <li className="nav_case">
-                    <img src={logov2} alt="logo" className="nav_logo"></img>
+                <NavLink
+                        to="/StronaGłówna"
+                        activeClassName="active"
+                    ><img src={logov2} alt="logo" className="nav_logo"></img>
+                </NavLink>
                 </li>
                 <li className="nav_case">
                     <NavLink
@@ -23,13 +27,6 @@ const Header = () => {
                         activeClassName="active"
                         className="nav_button"
                     >Galeria</NavLink>
-                </li>
-                <li className="nav_case">
-                    <NavLink
-                        to="/..."
-                        activeClassName="active"
-                        className="nav_button"
-                    >...</NavLink>
                 </li>
                 <li className="nav_case">
                     <NavLink

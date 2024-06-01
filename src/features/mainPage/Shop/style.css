@@ -14,8 +14,8 @@
 
 
 .shop_secMargin {
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 3%;
+    margin-left: 5%;
 }
 
 .shop_secHead {
@@ -96,6 +96,15 @@
 .pre-btn:hover, .nxt-btn:hover{
     opacity: 1;
 }
+
+
+@media screen and (max-width: 1200px) { 
+    .shop_secMargin {
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+}
+
 
 @media screen and (max-width: 600px) {
     .shop_sec {
