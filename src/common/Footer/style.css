@@ -31,15 +31,6 @@
     color: rgb(194, 194, 194);
 }
 
-@media screen and (max-width: 600px) {
-    .footer_info {
-        font-size: 7px;
-        margin-bottom: 15%;
-    }
-    .footer_main {
-        font-size: 10px;
-    }
-}
 
 .footer_mediaButton {
     width: 50px;
@@ -55,8 +46,29 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 2%;
+    cursor: pointer;
 }
 
 .footer_pageMap {
     list-style: none;
+}
+
+@media screen and (max-width: 600px) {
+    .footer_info {
+        font-size: 7px;
+        margin-bottom: 15%;
+    }
+    .footer_main {
+        font-size: 10px;
+    }
+    .footer_mediaButton {
+        width: 20px;
+        height: 20px;
+    }
+    .footer_mapButton {
+        font-size: 10px;
+    }
+    .footer_littleText {
+        font-size: 9px;
+    }
 }

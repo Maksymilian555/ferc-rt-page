@@ -29,7 +29,7 @@ function App() {
           <Wrapper body= {<ProductPage/>} />
         </Route>
         <Route path="/">
-          <ErrorPage/>
+          <Wrapper body={<ErrorPage/>}></Wrapper>
         </Route>
       </Switch>
     </nav>

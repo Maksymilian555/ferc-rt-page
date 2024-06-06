@@ -1,4 +1,3 @@
-import Footer from "../../common/Footer";
 import "./style.css";
 
 function ErrorPage() {
@@ -18,7 +17,6 @@ function ErrorPage() {
                 </div>
             </div>
         </section>
-        <Footer/>
         </>
     );
 };

@@ -1,9 +1,9 @@
 import "./style.css";
-import Discord from "../Images/Discord.png"
 import fb from "../Images/Facebook.png"
 import inst from "../Images/Instagram.png"
 import twit from "../Images/Twitter.png"
 import yt from "../Images/YouTube.png"
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
 const scrollProj = () => {
     const proj = document.getElementById("projects")
@@ -34,6 +34,22 @@ const scrollConc = () => {
     }
 }
 
+const scrollYt = () => {
+    const proj = document.getElementById("yt")
+
+    if (proj) {
+        proj.scrollIntoView();
+    }
+}
+
+const scrollInfo = () => {
+    const proj = document.getElementById("news")
+
+    if (proj) {
+        proj.scrollIntoView();
+    }
+}
+
 const Footer = () => (
     <section id="contact" className="footer">
         <div className="footer_main">
@@ -45,16 +61,21 @@ const Footer = () => (
                 <ul className="footer_pageMap">
                     <li>
                         <button className="footer_mapButton" onClick={scrollAbo}>O nas</button>
-                        <button className="footer_mapButton" onClick={scrollGal}>Sklep</button>
+                        <button className="footer_mapButton" onClick={scrollGal}>Wystawa</button>
                         <button className="footer_mapButton" onClick={scrollProj}>Projekty</button>
                         <button className="footer_mapButton" onClick={scrollConc}>Kontakt</button>
+                    </li>
+                    <li>
+                        <NavLink to="/Sklep" className="footer_navLink"><button className="footer_mapButton" >Sklep</button></NavLink>
+                        <NavLink to="/Galeria" className="footer_navLink"><button className="footer_mapButton" >Galeria</button></NavLink>
+                        <button className="footer_mapButton" onClick={scrollYt}>Youtube</button>
+                        <button className="footer_mapButton" onClick={scrollInfo}>Wydarzenia</button>
                     </li>
                 </ul>
             </div>
             <div>
                 <h4>Kontakt</h4>
                 <p>
-                   <a href="https://discord.gg/H7Cdx4uRps"><img className="footer_mediaButton" src={Discord} alt="Discord Button"></img></a> 
                    <a href="https://www.instagram.com/flat_earth_rocket_corporation/"><img className="footer_mediaButton" src={inst} alt="Instagram Button"></img></a> 
                    <a href="https://twitter.com/FERC_rt"><img className="footer_mediaButton" src={twit} alt="X Button"></img></a> 
                    <a href="https://www.facebook.com/profile.php?id=61557533082625"><img className="footer_mediaButton" src={fb} alt="Facebook Button"></img></a> 
