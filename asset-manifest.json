@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ferc-rt-page/static/css/main.b4981102.css",
+    "main.css": "/ferc-rt-page/static/css/main.95a9d087.css",
     "main.js": "/ferc-rt-page/static/js/main.58494513.js",
     "static/js/453.d0c0d888.chunk.js": "/ferc-rt-page/static/js/453.d0c0d888.chunk.js",
     "static/media/Img1.png": "/ferc-rt-page/static/media/Img1.5fc176aa60ee5dbe286f.png",
@@ -31,12 +31,12 @@
     "static/media/Discord.png": "/ferc-rt-page/static/media/Discord.1bd44eb799491111dd66.png",
     "static/media/Facebook.png": "/ferc-rt-page/static/media/Facebook.6783ed2bd5cadf29f821.png",
     "index.html": "/ferc-rt-page/index.html",
-    "main.b4981102.css.map": "/ferc-rt-page/static/css/main.b4981102.css.map",
+    "main.95a9d087.css.map": "/ferc-rt-page/static/css/main.95a9d087.css.map",
     "main.58494513.js.map": "/ferc-rt-page/static/js/main.58494513.js.map",
     "453.d0c0d888.chunk.js.map": "/ferc-rt-page/static/js/453.d0c0d888.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4981102.css",
+    "static/css/main.95a9d087.css",
     "static/js/main.58494513.js"
   ]
 }
