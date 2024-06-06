@@ -10,7 +10,7 @@
     padding-top: 4%;
     background-color: black;
     background-size: contain;
-    height: 85%;
+    height: 80%;
 }
 .ytSec_secFlex {
     display: flex;
@@ -99,6 +99,10 @@
 
     .ytSec_secFlex {
         flex-wrap: wrap;
+    }
+
+    .ytSec_flexMrg {
+        height: 90%;
     }
 
 }
