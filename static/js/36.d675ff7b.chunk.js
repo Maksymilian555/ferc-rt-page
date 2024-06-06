@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkferc_rt_page=self.webpackChunkferc_rt_page||[]).push([[36],{36:(e,a,c)=>{e.exports=c.p+"static/media/1-a.dec35af005ee38c527b8.jpg"}}]);
