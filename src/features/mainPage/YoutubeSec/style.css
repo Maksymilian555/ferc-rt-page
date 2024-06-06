@@ -1,0 +1,112 @@
+.ytSec {
+    height: 600px;
+    font-family: "Roboto", sans-serif;
+}
+
+.ytSec_flexMrg {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 4%;
+    background-color: black;
+    background-size: contain;
+    height: 85%;
+}
+.ytSec_secFlex {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    height: 100%;
+}
+
+.ytSec_filmInfo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+    height: 100%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.ytSec_filmName {
+    margin-bottom: 0;
+    text-wrap: wrap;
+    width: 80%;
+}
+
+.ytSec_description {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-wrap: wrap;
+    width: 80%;
+}
+
+.ytSec_filmLink {
+    border: none;
+    background-color: rgba(245, 245, 220, 0);
+    color: white;
+    height: 20px;
+    cursor: pointer;
+    background: 
+    linear-gradient(to right, rgba(100, 200, 200, 0), rgba(100, 200, 200, 0)),
+    linear-gradient(to right, rgba(105, 200, 255), rgba(105, 200, 255), rgba(105, 200, 255));
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+.ytSec_filmLink:hover {
+    background-size: 0 0.5em, 100% 0.08em;
+}
+
+.ytSec_film {
+    width: 66%;
+    max-height: 80%;
+    border: none;
+}
+
+@media screen and (max-width: 700px) { 
+    .ytSec {
+        height: 400px;
+    }
+    .ytSec_filmInfo {
+        margin-bottom: 15px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .ytSec_description {
+        font-size: 10px;
+        height: 50px;
+    }
+
+    .ytSec_filmName {
+        font-size: 20px;
+        height: 70px;
+    }
+    
+    .ytSec_filmLink {
+        height: 15px;
+    }
+
+    .ytSec_film {
+        width: 50%;
+        height: 100%;
+    }
+
+    .ytSec_secFlex {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 400px) { 
+
+    .ytSec_film {
+        width: 50%;
+        margin-left: 20px;
+    }
+}

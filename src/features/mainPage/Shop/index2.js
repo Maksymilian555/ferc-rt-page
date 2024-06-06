@@ -1,7 +1,14 @@
 import React from "react";
 import "./style2.css"
+import { useSelector } from "react-redux";
+import { selectProducts } from "../../ShopPage/productsSlice";
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
+import { toProduct } from "../../../routes";
+
+
 
 const MultiCardCarousel = () => {
+  const products = useSelector(selectProducts)
     const [currentIndex, setCurrentIndex] = React.useState(0);
     const cards = [
       {
@@ -66,12 +73,13 @@ const MultiCardCarousel = () => {
         <div className="carousel_width ">
           <div className="carousel_relativeBox"> 
             <div className="carousel_flex">
-              {cards.slice(currentIndex, currentIndex + 4).map((card, index) => (
-                <div className="carousel_card" key={index}>
-                  <img className="carousel_image" src={card.image} alt="Card" />
-                  <h3 className="carousel_title">{card.title}</h3>
-                  <p className="carousel_description">{card.description}</p>
+              {products.slice(currentIndex, currentIndex + 4).map((product, index) => (
+                <NavLink className="carousel_card" to={toProduct({id: product.id})} >
+                  <div  key={index}>
+                  <img className="carousel_image" src={require(`../../ShopPage/ProductsImages/${product.id}-a.jpg`)} alt="Card" />
+                  <h3 className="carousel_title">{product.name}</h3>
                 </div>
+                </NavLink>
               ))}
             </div>
             <div className="carousel_arrows">

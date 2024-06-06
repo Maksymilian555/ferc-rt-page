@@ -23,7 +23,12 @@
     border-radius: 5%;
     border: 1px solid rgb(245, 245, 245);
     box-shadow: 2px 5px 2px rgb(221, 221, 221);
-    margin-left: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 23%;
+    height: 570px;
+    text-decoration: none;
+    color: rgb(27, 27, 27)
 }
 
 .carousel_title {
@@ -49,7 +54,7 @@
     position: absolute;
     z-index: 2;
     bottom: 200px;
-    left: 50px;
+    left: 0;
     border: none;
     background-image: url("./Images/arrow.png");
     background-repeat: no-repeat;
@@ -62,7 +67,7 @@
 }
 
 .carousel_arrow--left {
-    left: 97%;
+    left: 98%;
     transform: rotate(0deg);
     bottom: 175px
 }
@@ -74,9 +79,80 @@
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
+    .carousel {
+        height: 450px;
+    }
     .carousel_flex {
         margin-left: 4%;
         margin-right: 4%;
+    }
+    .carousel_card {    
+        height: 350px;
+    }
+    .carousel_title {
+        font-size: larger;
+        margin-right: 3px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .carousel {
+        height: 250px;
+    }
+    .carousel_flex {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .carousel_card {    
+        height: 220px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .carousel_title {
+        font-size: small;
+        margin-right: 3px;
+    }
+    .carousel_arrow {
+
+        height: 30px;
+        width: 10px;
+        bottom: 150px;
+    }
+    .carousel_arrow--left {
+        left: 99%;
+    }
+    .carousel_relativeBox {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) { 
+    .carousel_card {
+        height: 170px;
+    }
+    .carousel_title {
+        font-size: x-small;
+        margin-top: 1px;
+    }
+    .carousel_arrow {
+        bottom: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) { 
+    .carousel_title {
+        font-size: xx-small;
+    }
+    .carousel_card {
+        height: 120px;
+    }
+    .carousel_image {
+        width: 80%;
+        padding-left: 10%;
+    }
+    .carousel {
+        height: 150px;
     }
 }
