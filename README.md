@@ -30,5 +30,9 @@ React, Redux, Normalize CSS, Java script, CSS, HTML, and others.
 
 Use this link to github pages:  https://maksymilian555.github.io/ferc-rt-page/
 
+### Graphics and films used 
+
+I used random graphics and films for this page, they are without copiright. After FERC will make our own images, then I'll implement them to page.
+
 #### More info later
 
