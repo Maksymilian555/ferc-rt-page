@@ -45,12 +45,16 @@
     font-size: large;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 2%;
+    margin-top: 20px;
     cursor: pointer;
+    text-wrap: nowrap;
 }
 
 .footer_pageMap {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap:7%
 }
 
 @media screen and (max-width: 600px) {
@@ -67,6 +71,7 @@
     }
     .footer_mapButton {
         font-size: 10px;
+        margin-top: 8px;
     }
     .footer_littleText {
         font-size: 9px;

@@ -25,16 +25,28 @@ import { toGallery, toShop } from "../../routes";
             </div>
             <div>
                 <ul className="footer_pageMap">
-                    <li>
+                    <li className="footer_mapCase">
                         <button className="footer_mapButton" onClick={() => Scroll("about")}>O nas</button>
+                    </li>
+                    <li className="footer_mapCase">
                         <button className="footer_mapButton" onClick={() => Scroll("shop")}>Wystawa</button>
+                        </li>
+                        <li className="footer_mapCase">
                         <button className="footer_mapButton" onClick={() => Scroll("projects")}>Projekty</button>
+                        </li>
+                        <li className="footer_mapCase">
                         <button className="footer_mapButton" onClick={() => Scroll("contact")}>Kontakt</button>
                     </li>
-                    <li>
+                    <li className="footer_mapCase">
                         <NavLink to={toShop()} className="footer_navLink"><button className="footer_mapButton" >Sklep</button></NavLink>
+                        </li>
+                        <li className="footer_mapCase">
                         <NavLink to={toGallery()} className="footer_navLink"><button className="footer_mapButton" >Galeria</button></NavLink>
+                        </li>
+                        <li className="footer_mapCase">
                         <button className="footer_mapButton" onClick={() => Scroll("yt")}>Youtube</button>
+                        </li>
+                        <li className="footer_mapCase">
                         <button className="footer_mapButton" onClick={() => Scroll("news")}>Wydarzenia</button>
                     </li>
                 </ul>
