@@ -2,6 +2,7 @@ import "./style.css";
 import { useRef } from "react";
 import { NavLink } from "react-router-dom";
 import MultiCardCarousel from "./index2.js";
+import { toShop } from "../../../routes.js";
 
 
 const Sec3 = () => {
@@ -11,7 +12,7 @@ const Sec3 = () => {
     <div className="shop_secMargin">
         <div className="shop_secHead">
                     <NavLink
-                        to="/Sklep"
+                        to={toShop()}
                         activeClassName="active"
                         className="shop_shopLink"
                     ><h2>Nasze produkty</h2></NavLink>

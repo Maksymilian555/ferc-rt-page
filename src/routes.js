@@ -1,7 +1,7 @@
-export const toShop = () => "/Sklep";
+export const toShop = () => "/Shop";
 
-export const toMainPage = () => "/StronaGłówna";
+export const toMainPage = () => "/MainPage";
 
-export const toGallery = () => "/Galeria";
+export const toGallery = () => "/Gallery";
 
-export const toProduct = ({id} = {id: ":id"}) => `/Produkt/${id}`;
+export const toProduct = ({id} = {id: ":id"}) => `/Product/${id}`;

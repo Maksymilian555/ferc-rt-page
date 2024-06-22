@@ -38,14 +38,16 @@
     color: rgb(255, 255, 255);
     transition: color 300ms;
     font-weight: 500;
-    margin-left: 30px;
-    margin-right: 30px;
     cursor: default;
+    position: absolute;
+    bottom: 0;
+    left: 20px
 }
 
 
 .newsSec_newsName--small {
     font-size: 20px;
+    bottom: 0;
 }
 
 .newsSec_newsName:hover {
@@ -53,30 +55,33 @@
 }
 
 .newsSec_mainNews {
+    position: relative;
     display: flex;
-    align-items: flex-end;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../../common/Images/icon.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 50%;
     margin-right: 10px;
 }
 
 
 .newsSec_mediumNews {
+    position: relative;
     display: flex;
-    align-items: flex-end;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../../common/Images/Instagram.png);
     background-size: contain;
     width: 50%;
     margin-right: 10px;
     font-size: 25px;
+    background-repeat: no-repeat;
 }
 
 .newsSec_smallNews {
+    position: relative;
     display: flex;
-    align-items: flex-end;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../../common/Images/Discord.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
     margin-bottom: 20px;
     font-size: 20px;
@@ -85,7 +90,8 @@
 .newsSec_smallNews--second {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../../common/Images/rocketproduct.jpg);
     margin-bottom: 0;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .newsSec_firstBox {
@@ -144,6 +150,7 @@
 
     .newsSec_newsName {
         font-size: 13px;
+        left: 10px;
     }
 
     .newsSec_newsName--small {
@@ -195,7 +202,7 @@
 
     .newsSec_body{
         height: 240px;
-        width: 90%;
+        width: 100%;
     }
 
     .newsSec_header {
@@ -205,14 +212,14 @@
     }
     
     .newsSec_mediumNews {
-        width: 40%;
+        width: 50%;
         margin-right: 2px;
         background-size: contain;
         background-repeat: no-repeat;
     }
     
     .newsSec_smallNews {
-        width: 90%;
+        width: 100%;
         margin-bottom: 4px;
     }
 

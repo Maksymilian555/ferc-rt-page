@@ -1,4 +1,4 @@
-import "./style.css";
+import "./style.css"
 import Header from "../Header";
 import Footer from "../Footer";
 

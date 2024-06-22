@@ -6,7 +6,7 @@ function ErrorPage() {
         <>
         <section id="about" className="errorSec">
             <div className="errorSec_flexMrg">
-                <div className="errorSec_secFlex">
+                <div className="errorSec_secArrangement">
                     <div className="errorSec_secText">
                         <h1>Strony nie znaleziono, błąd 404</h1>
                         <p>

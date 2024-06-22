@@ -1,6 +1,6 @@
 .productSec {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 7fr 3fr;
     font-family: "Roboto", sans-serif;
 }
 
@@ -94,6 +94,7 @@
 .productSec_image {
     width: 100%;
     height: 900px;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 900px) { 

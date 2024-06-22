@@ -66,13 +66,13 @@
 }
 
 .gallery_photo {
-    width: 345px;
+    width: 19.5%;
     height: 300px;
-    
+    object-fit: cover;
 }
 
 .gallery_photo--big {
-    width: 545px;
+    width: 29%;
 }
 
 @media screen and (max-width: 1200px) {

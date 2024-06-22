@@ -29,7 +29,7 @@
     margin-top: 5%;
 }
 
-.errorSec_secFlex {
+.errorSec_secArrangement {
     display: grid;
     flex-wrap: wrap;
     grid-template-columns: 1fr 2fr;

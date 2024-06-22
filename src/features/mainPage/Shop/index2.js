@@ -8,6 +8,7 @@ import { toProduct } from "../../../routes";
 
 
 const MultiCardCarousel = () => {
+  const productsInLine = 4
   const products = useSelector(selectProducts)
     const [currentIndex, setCurrentIndex] = React.useState(0);
     const cards = [
@@ -65,7 +66,7 @@ const MultiCardCarousel = () => {
     const handlePrev = () => {
       setCurrentIndex((prevIndex) => (prevIndex - 1 + cards.length) % cards.length);
     };
-  if(currentIndex>cards.length-4) {
+  if(currentIndex>cards.length-productsInLine) {
     setCurrentIndex(0)
   }
     return (
@@ -73,7 +74,7 @@ const MultiCardCarousel = () => {
         <div className="carousel_width ">
           <div className="carousel_relativeBox"> 
             <div className="carousel_flex">
-              {products.slice(currentIndex, currentIndex + 4).map((product, index) => (
+              {products.slice(currentIndex, currentIndex + productsInLine).map((product, index) => (
                 <NavLink className="carousel_card" to={toProduct({id: product.id})} >
                   <div  key={index}>
                   <img className="carousel_image" src={require(`../../ShopPage/ProductsImages/${product.id}-a.jpg`)} alt="Card" />

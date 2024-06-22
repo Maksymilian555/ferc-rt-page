@@ -4,53 +4,19 @@ import inst from "../Images/Instagram.png"
 import twit from "../Images/Twitter.png"
 import yt from "../Images/YouTube.png"
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
+import { toGallery, toShop } from "../../routes";
 
-const scrollProj = () => {
-    const proj = document.getElementById("projects")
 
-    if (proj) {
-        proj.scrollIntoView();
-    }
-}
-const scrollGal = () => {
-    const proj = document.getElementById("shop")
+ const Footer = () => {
 
-    if (proj) {
-        proj.scrollIntoView();
-    }
-}
-const scrollAbo = () => {
-    const proj = document.getElementById("about")
+    const Scroll = (id) => {
+        const target = document.getElementById(id)
+        if (target) {
+            target.scrollIntoView();
+        }
+    };
 
-    if (proj) {
-        proj.scrollIntoView();
-    }
-}
-const scrollConc = () => {
-    const proj = document.getElementById("contact")
-
-    if (proj) {
-        proj.scrollIntoView();
-    }
-}
-
-const scrollYt = () => {
-    const proj = document.getElementById("yt")
-
-    if (proj) {
-        proj.scrollIntoView();
-    }
-}
-
-const scrollInfo = () => {
-    const proj = document.getElementById("news")
-
-    if (proj) {
-        proj.scrollIntoView();
-    }
-}
-
-const Footer = () => (
+    return (
     <section id="contact" className="footer">
         <div className="footer_main">
             <div>
@@ -60,16 +26,16 @@ const Footer = () => (
             <div>
                 <ul className="footer_pageMap">
                     <li>
-                        <button className="footer_mapButton" onClick={scrollAbo}>O nas</button>
-                        <button className="footer_mapButton" onClick={scrollGal}>Wystawa</button>
-                        <button className="footer_mapButton" onClick={scrollProj}>Projekty</button>
-                        <button className="footer_mapButton" onClick={scrollConc}>Kontakt</button>
+                        <button className="footer_mapButton" onClick={() => Scroll("about")}>O nas</button>
+                        <button className="footer_mapButton" onClick={() => Scroll("shop")}>Wystawa</button>
+                        <button className="footer_mapButton" onClick={() => Scroll("projects")}>Projekty</button>
+                        <button className="footer_mapButton" onClick={() => Scroll("contact")}>Kontakt</button>
                     </li>
                     <li>
-                        <NavLink to="/Sklep" className="footer_navLink"><button className="footer_mapButton" >Sklep</button></NavLink>
-                        <NavLink to="/Galeria" className="footer_navLink"><button className="footer_mapButton" >Galeria</button></NavLink>
-                        <button className="footer_mapButton" onClick={scrollYt}>Youtube</button>
-                        <button className="footer_mapButton" onClick={scrollInfo}>Wydarzenia</button>
+                        <NavLink to={toShop()} className="footer_navLink"><button className="footer_mapButton" >Sklep</button></NavLink>
+                        <NavLink to={toGallery()} className="footer_navLink"><button className="footer_mapButton" >Galeria</button></NavLink>
+                        <button className="footer_mapButton" onClick={() => Scroll("yt")}>Youtube</button>
+                        <button className="footer_mapButton" onClick={() => Scroll("news")}>Wydarzenia</button>
                     </li>
                 </ul>
             </div>
@@ -89,6 +55,7 @@ const Footer = () => (
             </p>
         </div>
     </section>
-)
+    )
+};
 
 export default Footer;
