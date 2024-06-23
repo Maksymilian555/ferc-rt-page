@@ -1,5 +1,4 @@
 import "./style.css";
-import productFoto from "../../common/Images/rocketproduct.jpg"
 import { getProductsById } from "../ShopPage/productsSlice";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -18,7 +17,7 @@ function ProductPage() {
     return (
         <>
         <section id="product" className="productSec">
-           <img src={require(`../ShopPage/ProductsImages/${product.id}-a.jpg`)} className="productSec_image"></img>
+           <img src={require(`../ShopPage/ProductsImages/${product.id}-a.jpg`)} className="productSec_image" alt="Product on the white background"></img>
            <div className="productSec_info">
                 <h1 className="productSec_name">{product.name}</h1>
                 <h3 className="productSec_price">{`${product.price} złotych`}</h3>
