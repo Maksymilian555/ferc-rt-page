@@ -2,10 +2,15 @@ import "./style.css";
 import logov2 from "../Images/logov2.png"
 import { NavLink } from "react-router-dom";
 import { toGallery, toMainPage, toShop } from "../../routes";
+import { useTranslation } from 'react-i18next';
+import { Suspense } from "react";
 
 const Header = () => {
 
+    const { t, i18n } = useTranslation();
+
     return (
+        <Suspense>
         <div className="header"> 
             <ul className="nav_list">
                 <li className="nav_case">
@@ -20,24 +25,25 @@ const Header = () => {
                         to={toMainPage()}
                         activeClassName="active"
                         className="nav_button"
-                    >Strona Główna</NavLink>
+                    >{t("Strona Główna")}</NavLink>
                 </li>
                 <li className="nav_case">
                     <NavLink
                         to={toGallery()}
                         activeClassName="active"
                         className="nav_button"
-                    >Galeria</NavLink>
+                    >{t("Galeria")}</NavLink>
                 </li>
                 <li className="nav_case">
                     <NavLink
                         to={toShop()}
                         activeClassName="active"
                         className="nav_button"
-                    >Sklep</NavLink>
+                    >{t("Sklep")}</NavLink>
                 </li>
             </ul>
         </div>
+        </Suspense>
     );
 };
 export default Header;
