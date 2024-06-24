@@ -5,9 +5,15 @@ import MultiCardCarousel from "./index2.js";
 import { toShop } from "../../../routes.js";
 
 
+
+
 const Sec3 = () => {
     const shopRef = useRef(null);
+
+
+
     return (
+        
     <section ref={shopRef} id="shop" className="shop_sec shop_sec--justCent">
     <div className="shop_secMargin">
         <div className="shop_secHead">
@@ -22,6 +28,7 @@ const Sec3 = () => {
         </div>
     </div>
     </section>
+    
 );
 };
 

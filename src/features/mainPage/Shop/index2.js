@@ -7,7 +7,9 @@ import { toProduct } from "../../../routes";
 
 
 
-const MultiCardCarousel = () => {
+
+
+function MultiCardCarousel() {
   const productsInLine = 4
   const products = useSelector(selectProducts)
     const [currentIndex, setCurrentIndex] = React.useState(0);
@@ -69,7 +71,10 @@ const MultiCardCarousel = () => {
   if(currentIndex>cards.length-productsInLine) {
     setCurrentIndex(0)
   }
+
+
     return (
+      
       <div className="carousel">
         <div className="carousel_width ">
           <div className="carousel_relativeBox"> 
@@ -90,6 +95,7 @@ const MultiCardCarousel = () => {
           </div>
         </div>
       </div>
+      
     );
   };
   

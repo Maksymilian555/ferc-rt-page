@@ -1,11 +1,18 @@
 import "./style.css";
 import Img1 from "../../../common/Images/Img1.1.png"
 
+
+
 const firstSec = {
     backgroundImage: `url(${Img1})`,
 };
 
-const Sec1 = () => (
+function Sec1() {
+
+
+    
+    return (
+        
     <section id="projects" className="headSec" style={firstSec}>
             <div className="headSec_flexMrg">
                 <div className="headSec_secFlex">
@@ -21,6 +28,8 @@ const Sec1 = () => (
                 </div>
             </div>  
     </section>
-);
+    
+    );
+};
 
 export default Sec1;

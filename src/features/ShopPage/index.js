@@ -8,7 +8,10 @@ import { useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 
+
+
 function ShopPage() {
+
     const location = useLocation();
     const searchParams = new URLSearchParams(location.search);
     const query = searchParams.get("szukaj");
@@ -54,6 +57,7 @@ function ShopPage() {
     };
     return (
         <>
+        
         <section id="shop" className="shopSec">
             <div className="shopSec_flexMrg">
                 <div className="shopSec_secFlex">
@@ -89,6 +93,7 @@ function ShopPage() {
                 </ul>
             </div>
         </section>
+        
         </>
     );
 };

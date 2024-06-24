@@ -1,6 +1,13 @@
 import "./style.css";
 
-const NewsSec = () => (
+
+
+function NewsSec() {
+
+
+
+    return(
+        
     <section id="news" className="newsSec">
             <div className="newsSec_flexMrg">
                 <div className="newsSec_secFlex">
@@ -26,6 +33,8 @@ const NewsSec = () => (
                 </div>
             </div>  
     </section>
-);
+    
+    )
+};
 
 export default NewsSec;

@@ -1,11 +1,18 @@
 import "./style.css";
 import Earth from "../../../common/Images/Earth.jpeg"
 
+
+
 const firstSec = {
     backgroundImage: `url(${Earth})`,
 };
 
-const Sec2 = () => (
+function Sec2() {
+
+
+
+    return (
+        
 <section id="about" className="imgSec_sec" style={firstSec}>
             <div className="imgSec_flexMrg">
                 <div className="imgSec_secFlex">
@@ -19,6 +26,8 @@ const Sec2 = () => (
                 </div>
             </div>  
         </section>
-);
+        
+    );
+};
 
 export default Sec2;

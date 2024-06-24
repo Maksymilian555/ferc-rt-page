@@ -1,9 +1,13 @@
 import "./style.css";
 
+
 function ErrorPage() {
+
+
 
     return (
         <>
+        
         <section id="about" className="errorSec">
             <div className="errorSec_flexMrg">
                 <div className="errorSec_secArrangement">
@@ -17,6 +21,7 @@ function ErrorPage() {
                 </div>
             </div>
         </section>
+        
         </>
     );
 };

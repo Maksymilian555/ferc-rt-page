@@ -1,8 +1,14 @@
 import "./style.css";
 
+
+
 const link = "https://www.youtube.com/embed/Jig5iZNDk88?si=f3xvge0oYF9Nsxy-"
 
-const YoutubeSec = () => (
+function YoutubeSec() {
+
+
+
+    return (
     <section id="yt" className="ytSec">
             <div className="ytSec_flexMrg">
                 <div className="ytSec_secFlex">
@@ -15,6 +21,8 @@ const YoutubeSec = () => (
                 </div>
             </div>  
     </section>
-);
+    
+    );
+};
 
 export default YoutubeSec;

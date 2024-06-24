@@ -1,10 +1,15 @@
 import "./style.css";
 import foto from "../../common/Images/Img1.png"
 
+
+
+
 function GalleryPage() {
 
+
+
     return (
-        <>
+        
         <section id="about" className="gallerySec">
             <div className="gallerySec_flexMrg">
                 <div className="gallerySec_secFlex">
@@ -35,7 +40,7 @@ function GalleryPage() {
                 </div>
             </div>
         </section>
-        </>
+        
     );
 };
 
