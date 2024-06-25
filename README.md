@@ -2,7 +2,19 @@
 
 This page is create for presentation of Flat Earth Rocket Corporation and Rocket Technologies. We want to show you all our news, products and images.
 
-## How to pull respository
+## What is our page about
+
+We will show you all our news, images and info. We also want to popularize our poducts. It will all be about rocket, parachutes and engines. We want to fly to the space, but question is how? Take a look on Flat Earth Rocket Corporation website!
+
+## Want to test page? 
+
+Use this link to github pages:  https://maksymilian555.github.io/ferc-rt-page/
+
+### What we are using in that project
+
+React, Redux, Normalize CSS, Java script, CSS, HTML, and others.
+
+### How to pull respository
 
 In your terminal you can run:
 
@@ -10,7 +22,7 @@ In your terminal you can run:
 
 Then you can simply open folder and edit it.
 
-## How to deploy 
+### How to deploy 
 
 If you want to push page to online with github pages, you can use:
 
@@ -18,21 +30,7 @@ If you want to push page to online with github pages, you can use:
 
 In git bash or cmd.
 
-## What is our page about
-
-We will show you all our news, images and info. We also want to popularize our poducts. It will all be about rocket, parachutes, flat earth 😀 and engines. We want to fly to the space, but question is how? After all, we are living on flat earth...
-
-### What we are using in that project
-
-React, Redux, Normalize CSS, Java script, CSS, HTML, and others.
-
-### Want to test page? 
-
-Use this link to github pages:  https://maksymilian555.github.io/ferc-rt-page/
-
 ### Graphics and films used 
 
-I used random graphics and films for this page, they are without copiright. After FERC will make our own images, then I'll implement them to page.
-
-#### More info later
+I used random graphics and films for this page, they are without copiright. After FERC will make it's own images, then I'll implement them to page.
 
