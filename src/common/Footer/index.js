@@ -25,22 +25,22 @@ import { toGallery, toShop } from "../../routes";
         <div className="footer_main">
             <div>
                 <h4>Flat Earth Rocket Corporation</h4>
-                <p className="footer_littleText">Staramy się pokazać innym, że można osiągnąć niemożliwe, a robimy to: sięgając aż w kosmos!</p>
+                <p className="footer_littleText">Staramy się pokazać innym, że można dokonać niemożliwego, a robimy to: sięgając aż w kosmos!</p>
             </div>
             <div>
                 <ul className="footer_pageMap">
                     <li className="footer_mapCase">
-                        <button className="footer_mapButton" onClick={() => Scroll("about>O nas")}></button>
+                        <button className="footer_mapButton" onClick={() => Scroll("about")}>O nas</button>
                     </li>
 
                     <li className="footer_mapCase">
-                        <button className="footer_mapButton" onClick={() => Scroll("shop>Wystawa")}></button>
+                        <button className="footer_mapButton" onClick={() => Scroll("shop")}>Wystawa</button>
                         </li>
                         <li className="footer_mapCase">
-                        <button className="footer_mapButton" onClick={() => Scroll("projects>Projekty")}></button>
+                        <button className="footer_mapButton" onClick={() => Scroll("projects")}>Projekty</button>
                         </li>
                         <li className="footer_mapCase">
-                        <button className="footer_mapButton" onClick={() => Scroll("contact>Kontakt")}></button>
+                        <button className="footer_mapButton" onClick={() => Scroll("contact")}>Kontakt</button>
                     </li>
                     <li className="footer_mapCase">
                         <NavLink to={toShop()} className="footer_navLink"><button className="footer_mapButton" >Sklep</button></NavLink>
@@ -49,10 +49,10 @@ import { toGallery, toShop } from "../../routes";
                         <NavLink to={toGallery()} className="footer_navLink"><button className="footer_mapButton" >Galeria</button></NavLink>
                         </li>
                         <li className="footer_mapCase">
-                        <button className="footer_mapButton" onClick={() => Scroll("yt>Youtube")}></button>
+                        <button className="footer_mapButton" onClick={() => Scroll("yt")}>Youtube</button>
                         </li>
                         <li className="footer_mapCase">
-                        <button className="footer_mapButton" onClick={() => Scroll("news>Wydarzenia")}></button>
+                        <button className="footer_mapButton" onClick={() => Scroll("news")}>Widomości</button>
                     </li>
                 </ul>
             </div>

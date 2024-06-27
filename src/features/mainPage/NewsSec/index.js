@@ -18,7 +18,7 @@ function NewsSec() {
                             </div>
                             <div className="newsSec_firstBox">
                                 <div className="newsSec_mediumNews">
-                                    <h2 className="newsSec_newsName">Nowe wpisy na instagramie Flat Earth</h2>
+                                    <h2 className="newsSec_newsName">Więcej zdjęć na stronie</h2>
                                 </div>
                                 <div className="newsSec_secondBox">
                                     <div className="newsSec_smallNews">

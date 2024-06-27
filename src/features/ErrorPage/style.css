@@ -32,7 +32,7 @@
 .errorSec_secArrangement {
     display: grid;
     flex-wrap: wrap;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 5fr 8fr;
     margin: 3%;
     padding-top: 10%;
 }
