@@ -1,8 +1,4 @@
 import "./style.css";
-import foto from "../../common/Images/Img1.png"
-
-
-
 
 function GalleryPage() {
 
@@ -15,28 +11,28 @@ function GalleryPage() {
                 <div className="gallerySec_secFlex">
                     <div className="gallerySec_secText">
                         <h1>Nasze zdjęcia</h1>
-                        <p className="gallerySec_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p className="gallerySec_paragraph">Zobacz nasze zdjęcia, które przedstawiają dużą część naszej pracy znacznie lepiej niż słowa. Mamy nadzieję, że z czasem to miejsce rozrośnie się, a także zostanie prawdziwą kopalnią wiedzy o naszej firmie.</p>
                     </div>
                 </div>
             </div>
             <div className="gallerySec_gallery">
                 <div className="gallery_row">
-                    <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo gallery_photo--big" src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo gallery_photo--big" src={foto} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo" src={require(`../../Images/2-b.jpg`)} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo gallery_photo--big" src={require(`../../Images/4-b.jpg`)} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo" src={require(`../../Images/6-a.jpg`)} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo gallery_photo--big" src={require(`../../Images/3-a.jpg`)} alt="Zdjęcie rakiety"/>
                 </div>
                 <div className="gallery_row">
-                    <img className="gallery_photo gallery_photo--big" src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo " src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo gallery_photo--big" src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo gallery_photo--big" src={require(`../../Images/icon.jpg`)} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo " src={require(`../../Images/9-b.jpg`)} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo gallery_photo--big" src={require(`../../Images/2-b.jpg`)} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo" src={require(`../../Images/1-b.jpg`)} alt="Zdjęcie rakiety"/>
                 </div>
                 <div className="gallery_row">
-                    <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo gallery_photo--big" src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo" src={foto} alt="Zdjęcie rakiety"/>
-                    <img className="gallery_photo gallery_photo--big" src={foto} alt="Zdjęcie rakiety"/>   
+                    <img className="gallery_photo" src={require(`../../Images/Earth.jpeg`)} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo gallery_photo--big" src={require(`../../Images/Img1.png`)} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo" src={require(`../../Images/rocketproduct.jpg`)} alt="Zdjęcie rakiety"/>
+                    <img className="gallery_photo gallery_photo--big" src={require(`../../Images/5-a.jpg`)} alt="Zdjęcie rakiety"/>   
                 </div>
             </div>
         </section>
