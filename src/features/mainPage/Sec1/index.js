@@ -20,7 +20,7 @@ function Sec1() {
                         <p></p>
                         <h1>Dowiedz się o nas więcej</h1>
                         <p>
-                            Jeśli zainteresowało cię to co robimy, zajrzyj niżej i sprawdź nasz media społecznościowe, aby zawsze być na bieżąco. Możesz podjąć z nami kontakt za ich pomocą, ale także z uzyciem adresu email: ferc.rockettechnologies@gmail.com . Możesz również podjąć tam rozmowę w sprawie rekrutacji czy produktów w naszym sklepie. Do zobaczenia 🖐
+                            Jeśli zainteresowało cię to co robimy, zajrzyj niżej i sprawdź nasz media społecznościowe, aby zawsze być na bieżąco. Możesz także podjąć z nami kontakt z użyciem dowolnej podanej platformy, ale także używając adresu email: ferc.rockettechnologies@gmail.com. Możesz również podjąć tam rozmowę w sprawie produktów w naszym sklepie. Do zobaczenia 🖐
 
                         </p>
                     </div>

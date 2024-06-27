@@ -10,16 +10,16 @@ const productsSlice = createSlice({
                 avability: false,
                 price: 99.99,
                 online: true,
-                description: " Myślałeś kiedyś, że rakiety to olbrzymie i zaawansowane konstrukcje, w dodatku niebezpieczne i zionące ogniem? Nasza rakieta jest zupełnie inna, wciśnij ją i patrz jak leci! ",
+                description: " Przeważnie rakiety to wielkie maszyny, które mają lecieć na duże wysokości. Jednak mało kto może schować ją w domu lub ogrodzie, dlatego przygotowaliśmy bardzo małą rakietę, zdolną pomieścić się w dłoni. W dodatku jej lot nie wymaga paliwa czy ognia, lecz zwykłego naciśnięcia!",
                 category: 2,
             },
             {
                 id: "2",
-                name: "Samolot z napędem gumowym",
+                name: "Samolot z napędem na gumkę",
                 avability: false,
                 price: 99.99,
                 online: true,
-                description: "Zwykła poroca to często za mało, a papierowy samolot nie poleci za daleko. Mamy pomysł jak to naparić! Nasz model samolotu poleci daleko i użyjesz go wiele razy!",
+                description: "Puszczanie samolotów to ciekawa umiejętność, wręcz sztuka. Niestety nie każdy potrafi robić to bardzo dobrze, w związku z tym nasz produkt jest gotowy do użytkowania nawet bez tej umiejętności. Napęd pozwoli ci wystrzelić samolot dalej niż robią to mistrzowie rzucania.",
                 category: 1,
             },
             {
@@ -28,7 +28,7 @@ const productsSlice = createSlice({
                 avability: false,
                 price: 99.99,
                 online: true,
-                description: "Szukasz fajnej ozdoby na biurko, a może czegoś na nudę? Co prawda modele są nieruchome, ale odpowiednia podstawka zmienia zadasy gry, sprawdź jak bardzo można go wygiąć! ",
+                description: "Jeżeli twój pokój czy biurko w pracy wydają się nieciekawe, to nasz model jest dla ciebie! Większość ozdób nie ma żadnej przydatności, ale ta jest idealna na nudę. Choć pozornie bez zastosowania, możesz użyć ją na wiele sposobów. ",
                 category: 1,
             },
             {
@@ -37,7 +37,7 @@ const productsSlice = createSlice({
                 avability: false,
                 price: 99.99,
                 online: true,
-                description: "Szybowce i papierowe samolociki są bardzo fajne, ale daleko im od tych dużo większych maszyn z panelem sterującym i całą tą elektroniką. A co powiesz na samolot ze śmigłami, który możesz naładować?",
+                description: "Samoloty ze śmigłem to dla nas często stare maszyny, które nie są już używane. Jednak dlaczego nie sięgnąć w głąb historii i samemu poznać tę technologię? Możesz wykorzystać samolot wiele razy, gdyż napęd działa na akumulator. ",
                 category: 4,
                 
             },
@@ -47,7 +47,7 @@ const productsSlice = createSlice({
                 avability: false,
                 price: 99.99,
                 online: false,
-                description: "Zwykłe ciastka są smaczne, fajne i... bezkształtne, trudno cokolwiek sobie z nich wyobrazić. Zatem może potrzebują trochę koloru i kształtu? Ciekawsza płaska ziemia, rakieta czy ciemny, bezkształtny kosmos?",
+                description: "Może lubisz słodkości, albo interesujesz się kosmosem, jeżeli tak jest, to musisz spróbować naszych ciasteczek! Mają różne kształty tak aby każdy mógł wybrać swoje ulubione.",
                 category: 3,
                 
             },
@@ -57,7 +57,7 @@ const productsSlice = createSlice({
                 avability: false,
                 price: 99.99,
                 online: true,
-                description: "Chociaż każda rakieta jest ciekawa i ma ogormne możliwości, to nie każdy może taką zbudować. Co powiesz na małą pomoc? ",
+                description: "Żeby zbudować rakietę nie zawsze potrzebne jest doświadczenie i rozległa wiedza, nasz zestaw pozwoli ci stworzyć własną, wyjątkową rakietę i wystrzelić ją w przetrzeń. ",
                 category: 2,
                 
             },
@@ -67,7 +67,7 @@ const productsSlice = createSlice({
                 avability: false,
                 price: 99.99,
                 online: true,
-                description: "Czy korzystaliście kiedyś z pustej butelki do straszenia innych? Ciśnienie można wykorzystac na różny sposób, nawet w rakietach! W tej wersji nasz pojazd startuje za pomocą specjalnego systemu, a następnie bezpieczna, piankowa rakieta leci w przestrzeń!",
+                description: "Ciśnienie jest wykorzystywane w mnóstwach technik i dziedzin, my używamy go jako napędu do rakiety. Różne zestawy zawierają punkty startowe, piankowe rakiety, ulepszenia i dodatki. Wszystko to zasilane ciśnieniem!",
                 category: 2,
                 
             },
@@ -77,7 +77,7 @@ const productsSlice = createSlice({
                 avability: false,
                 price: 99.99,
                 online: true,
-                description: "Jeśli jest sucho i nie ma wiatru, to wspaniała pora żeby zobaczyć nocne widowisko. Lampion w dzień wydaje się być malym balonem na gorące powietrze. W nocy daje niesamowite efekty!",
+                description: "Choć balony na gorące powietrze są dosyć duże, to można skorzystać z pomniejszonej wersji. Lampiony mogą służyć robieniu wspaniałych zdjęć z powietrza, albo jako ozdoba nocnego nieba. Jak ty wykorzystasz to urządzenie?",
                 category: 4,
                 
             },
@@ -87,7 +87,7 @@ const productsSlice = createSlice({
                 avability: false,
                 price: 99.99,
                 online: true,
-                description: "Każda ozdoba sama w sobie wydaje się dość nudna, dlatego warto sprawić, żeby pozornie nieużyteczna rzecz, była przydatna w każdej porze. Czy rakietowa lampka to dobra propozycja?",
+                description: "Wszystko można kształtować, dlatego stworzyliśmy rakietową lampkę, która może być ozdobą, lub służyć jako oświetlenie w ciemnych miejscach. Do tego możesz ukryć ją niemal wszędzie, gdyż jest bardzo mała!",
                 category: 2,
                 
             },
