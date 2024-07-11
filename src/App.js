@@ -5,7 +5,8 @@ import GalleryPage from "./features/GalleryPage";
 import Wrapper from "./common/Wrapper";
 import ShopPage from "./features/ShopPage";
 import ProductPage from "./features/ProductPage"
-import { toShop, toGallery, toMainPage, toProduct } from "./routes";
+import NewsPage from "./features/NewsPage";
+import { toShop, toGallery, toMainPage, toProduct, toNews } from "./routes";
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route path={toProduct()}>
           <Wrapper body= {<ProductPage/>} />
+        </Route>
+        <Route path={toNews()}>
+          <Wrapper body= {<NewsPage/>}/>
         </Route>
         <Route path="/">
           <Wrapper body={<ErrorPage/>}></Wrapper>

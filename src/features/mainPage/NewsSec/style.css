@@ -61,6 +61,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     width: 50%;
+    height: 100%;
     margin-right: 10px;
 }
 
@@ -70,8 +71,10 @@
     display: flex;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../../common/Images/Instagram.png);
     background-size: contain;
-    width: 50%;
+    width: 25%;
+    height: 100%;
     margin-right: 10px;
+    margin-left: 10px;
     font-size: 25px;
     background-repeat: no-repeat;
 }
@@ -82,6 +85,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../../common/Images/Discord.png);
     background-size: contain;
     background-repeat: no-repeat;
+    height: 48%;
     width: 100%;
     margin-bottom: 20px;
     font-size: 20px;
@@ -92,12 +96,13 @@
     margin-bottom: 0;
     background-size: contain;
     background-repeat: no-repeat;
+    align-self: flex-end;
 }
 
 .newsSec_firstBox {
     display: flex;
-    flex-wrap: nowrap;
-    width: 50%;
+    flex-wrap: wrap;
+    width: 25%;
     margin-left: 10px;
 }
 
@@ -164,6 +169,7 @@
     
     .newsSec_mediumNews {
         margin-right: 5px;
+        margin-left: 5px;
     }
     
     .newsSec_smallNews {

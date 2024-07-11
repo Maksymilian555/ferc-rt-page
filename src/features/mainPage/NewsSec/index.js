@@ -1,11 +1,13 @@
 import "./style.css";
-
+import { getNewsById } from "../../NewsPage/newsSlice";
+import { selectNews } from "../../NewsPage/newsSlice";
+import { useSelector } from "react-redux";
+import { toNews } from "../../../routes";
+import { NavLink } from "react-router-dom";
 
 
 function NewsSec() {
-
-
-
+    const news = useSelector(selectNews)
     return(
         
     <section id="news" className="newsSec">
@@ -13,22 +15,31 @@ function NewsSec() {
                 <div className="newsSec_secFlex">
                         <h1 className="newsSec_header">Wiadomości</h1>
                         <div className="newsSec_body">
-                            <div className="newsSec_mainNews">
-                                <h2 className="newsSec_newsName">FERC rozpoczyna swoją działalność</h2>
+                           {
+                                news.map(news => (
+                            (news.id < 3 ) ? 
+                            <NavLink to={toNews({id: news.id})} className={(news.id == 1) ? "newsSec_mainNews": "newsSec_mediumNews"}>
+                            <div >
+                                <h2 className="newsSec_newsName">{news.name}</h2>
                             </div>
+                            </NavLink>
+                            : ""
+                            ))
+                            }
                             <div className="newsSec_firstBox">
-                                <div className="newsSec_mediumNews">
-                                    <h2 className="newsSec_newsName">Więcej zdjęć na stronie</h2>
-                                </div>
-                                <div className="newsSec_secondBox">
-                                    <div className="newsSec_smallNews">
-                                        <h2 className="newsSec_newsName newsSec_newsName--small">Znika link do discorda</h2>
-                                    </div>
-                                    <div className="newsSec_smallNews newsSec_smallNews--second">
-                                        <h2 className="newsSec_newsName newsSec_newsName--small">Czy strona internetowa przyniesie korzyści firmie?</h2>
-                                    </div>
-                                </div>
+                            {
+                                news.map(news => (
+                                (news.id >= 3 ) ? 
+                            <NavLink to={toNews({id: news.id})} className={ (news.id == 3) ? "newsSec_smallNews" : (news.id == 4) ?" newsSec_smallNews newsSec_smallNews--second" : "none"}>
+                            <div >
+                                <h2 className="newsSec_newsName">{news.name}</h2>
                             </div>
+                            </NavLink>
+                            :
+                            ""
+                            ))
+                            }
+                            </div>  
                         </div>
                 </div>
             </div>  
