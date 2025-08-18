@@ -8,7 +8,7 @@ We will show you all our news, images and info. We also want to popularize our p
 
 ## Want to test the page? 
 
-Use this link to GitHub Pages: https://maksymilian555.github.io/ferc-rt-page/ .
+Use this link to GitHub Pages: [https://maksymilian555.github.io/ferc-rt-page/](https://flatearthrocco.github.io/ferc-rt-page/#/MainPage) .
 
 ### What we are using in that project
 
